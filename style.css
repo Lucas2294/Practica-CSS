@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.contenedor {
+    display:flex;
+    flex-direction: column;
+    width: 1440px; height: 900px;
+    background-image: url("./images/bg-pattern-bottom-desktop.svg"), url("./images/bg-pattern-top-desktop.svg");
+    background-position: bottom right, top left;
+    background-repeat: no-repeat, no-repeat;
+    margin: auto;
+}
+
+.arriba {
+    width: 1440; height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.texto{
+    width: 720px; height: 450px;    
+    text-align: left;
+}
+.titulo{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    line-height: 45px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+.parrafo {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    color: hsl(300, 43%, 22%);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.calificacion {
+    width: 720px; height: 450px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(300, 76%, 18%);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.calificacion:nth-child(){
+align-items: center ;
+}
+.d-flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.calif1{
+    width: 420px; height: 50px;
+    background: hsl(300, 24%, 96%);
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.m-left{
+    margin-left: 50px;
+}
+.m-left1{
+    margin-left: 100px;
+}
+
+
+
+
+
+.abajo {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 150px;
+    
+}
+
+.testimonios{
+    background: hsl(300, 43%, 22%);
+    width: 300px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 300px; height: 196px;
+
+}
+.buyer{
+    color: hsl(333, 80%, 67%);
+}
+
+.imagen{
+    border-radius: 50%;
+}
+
+.comprador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.testi2{
+    margin-top: 30px;
+}
+.testi3{
+    margin-top: 60px;
+}
